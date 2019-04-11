@@ -1,0 +1,98 @@
+h1{
+  text-align: center;
+  font-size: 3em;
+}
+h3{
+  text-align:center;
+  font-size:2em;
+}
+body{
+  background-image: url("creditCard.jpeg");
+  color:yellow;
+  margin-left: auto;
+  margin-right:auto;
+  width:50em;
+  line-height:1em;
+}
+#note{
+  display:inline-block;
+  position:absolute;
+  width:12em;
+  margin-left:30em;
+  margin-top:3em;
+  color:blue;
+  font-style: italic;
+
+}
+#ccdiv{
+  display:inline-block;
+  position:absolute;
+  color:blue;
+  margin:2em;
+  width:33em;
+  height:14em;
+  background-color:lightblue;
+  border:2px solid yellow;
+  border-radius:1em;
+  font-size:20px;
+}
+
+#ccdiv form{
+  line-height:2em;
+  /* padding-left:2em; */
+  padding-top:1em;
+}
+#ccdiv form label{
+  display:inline-block;
+  width:11em;
+  padding-left:2em;
+}
+#ccdiv form #ccnumber{  /*input*/
+  width:10em;
+  height:20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+#ccdiv form #month{           /*input*/
+  width:2em;
+  height:20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+#ccdiv form #year{  /*input*/
+  width:3em;
+  margin-left:5px;
+  height:20px;
+  font-weight: bold;
+  text-align: center;
+}
+#butPos{
+  margin-left:250px;
+
+}
+#ccdiv form #submit, #reset{
+
+  width:5em;
+  height:30px;
+  font-weight: bold;
+  color:blue;
+  border: 2px solid blue;
+}
+
+/* #ccdiv p{
+  padding-left:2em;
+} */
+
+hr {
+    display:block;
+    height: 0em;
+    border: 0;
+    border-top: 2px solid yellow;
+    margin: 1em 0;
+    padding: 0;
+}
+#result {
+  text-align: center;
+}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Valid CC</title>
+    <link rel="stylesheet" href="valid_CC.css">
+    <script type="text/javascript" src="jquery-3.3.1.js"></script>
+    <script src = "valid_CC.js"></script>
+    <script src = "valid_CC_jquery.js"> </script>
+
+  </head>
+  <body>
+    <br>
+    <h1>Is this a valid credit card number?</h1>
+    <h3>By John Eng</h3><br><br>
+
+    <div id="ccdiv">
+    <form id="ccnumberform">
+    <label>Credit Card Number:</label><input type="text" id = "ccnumber" placeholder = "XXXXXXXXXXXXXXXX" maxlength = 16><br>
+    <label>Expiration date:</label><input type="text" id = "month" placeholder = "MM" maxlength = 2>
+                    <input type="text" id = "year" placeholder = "YYYY" maxlength = 4><br><br>
+    <span id="butPos">
+    <input type="button" id = "submit" value = "SUMBIT" onclick = "testingCC(document.getElementById('ccnumber').value, document.getElementById('month').value, document.getElementById('year').value)">
+    <input type="button" id = "reset" value = "RESET" onclick='location.reload();'><br>
+  </span>
+    </form>
+    <hr/>
+    <p id="result">What is the Result?</p>
+    </div>
+
+    <div id="note"><p>*Enter 16-digit credit card number and expiration date (cannot be over 3 years)</p></div>
+
+</body>
+</html>
